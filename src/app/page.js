@@ -6,18 +6,11 @@ const Home = () => {
       <div className="lg:px-12 pb-9">
         <h1 className="text-2xl pb-2 lg:pb-6">Sobre mí</h1>
         <p className="text-lg">
-          Profesionalizando mis habilidades de desarrollo durante{" "}
-          <b className="text-blue-400">+3 años</b>.{" "}
-          <b className="text-blue-400">Autodidacta</b>,{" "}
-          <b className="text-blue-400">resiliente</b> y{" "}
-          <b className="text-blue-400">dinámico</b>. Disfruto del trabajo en
-          equipo, brindo apoyo y orientación para lograr objetivos. Me gusta
-          crear interfaces atractivas y funcionales. Comprometido con el
-          autodesarrollo y profesionalismo.{" "}
-          <b className="text-blue-400">Liderazgo</b>,{" "}
-          <b className="text-blue-400">seriedad</b> y{" "}
-          <b className="text-blue-400">proactividad</b> para enfrentar nuevos
-          desafíos.
+          Profesionalizando mis habilidades desarrollador web autodidacta, con una fuerte pasión 
+          por crear interfaces atractivas y funcionales. 
+          Disfruto del trabajo en equipo, 
+          brindando apoyo y orientación para alcanzar objetivos comunes. Comprometido con el autodesarrollo y el profesionalismo,
+          siempre busco nuevos desafíos que me permitan crecer tanto personal como profesionalmente. {" "}
           <br />
           ¡Contactame para conversar sobre tecnología y oportunidades
           profesionales!
@@ -29,15 +22,14 @@ const Home = () => {
           <Logo icon="icon-[logos--html-5]" tooltipText="HTML5" />
           <Logo icon="icon-[logos--css-3]" tooltipText="CSS3" />
           <Logo icon="icon-[logos--sass]" tooltipText="SASS" />
-          <Logo icon="icon-[logos--tailwindcss-icon]" tooltipText="Tailwind" />
-          <Logo icon="icon-[logos--bootstrap]" tooltipText="Bootstrap" />
-          <Logo icon="icon-[logos--firebase]" tooltipText="Firebase" />
-          <Logo icon="icon-[logos--material-ui]" tooltipText="Material UI" />
+          <Logo icon="icon-[logos--c-sharp]" tooltipText="C#" />
+          <Logo icon="icon-[logos--mysql-icon]" tooltipText="MySQL" />
+
+          <Logo icon="icon-[logos--docker]" tooltipText="Docker" />
+          <Logo icon="icon-[logos--flutter]" tooltipText="Flutter" />
           <Logo icon="icon-[logos--javascript]" tooltipText="JavaScript" />
           <Logo icon="icon-[logos--typescript-icon]" tooltipText="TypeScript" />
           <Logo icon="icon-[logos--react]" tooltipText="ReactJS" />
-          <Logo icon="icon-[logos--nextjs-icon]" tooltipText="NextJS" />
-          <Logo icon="icon-[vscode-icons--file-type-angular]" tooltipText="Angular" />
           <Logo icon="icon-[logos--nodejs-icon]" tooltipText="NodeJS" />
           <Logo icon="icon-[logos--express] invert" tooltipText="ExpressJS" />
           <Logo icon="icon-[logos--git-icon]" tooltipText="Git" />

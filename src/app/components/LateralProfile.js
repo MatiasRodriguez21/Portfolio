@@ -9,7 +9,7 @@ const LateralProfile = () => {
 
   const handleCopy = async () => {
     try {
-      await navigator.clipboard.writeText("uriel.aguero1812@gmail.com");
+      await navigator.clipboard.writeText("matirodriguez120401@gmail.com");
       setSuccessCopy(true);
     } catch (error) {
       setSuccessCopy(false);
@@ -20,29 +20,24 @@ const LateralProfile = () => {
     <section className="w-full pb-8 lg:w-1/4 z-10">
       <div className="flex items-center lg:items-start lg:flex-col">
         <Image
-          src="/personal-image.jpg"
+          src="/foto_perfil.jpeg"
           width={300}
           height={300}
           priority={true}
           alt="Foto de perfil"
-          className="w-28 lg:w-full rounded-full border-2 border-slate-800 transition-opacity opacity-0 !z-50"
-          onLoad={image =>
-            image.target.classList.remove("opacity-0")
-          }
+          className="rounded-full		"
+          onLoad={(image) => image.target.classList.remove("opacity-0")}
         />
         <div className="pl-4 lg:pl-0 lg:pt-4">
-          <h2 className="text-2xl font-extrabold">Uriel Agüero</h2>
-          <h2 className="text-xl font-light text-gray-400">
-            UriAg &middot; he/him
-          </h2>
+          <h2 className="text-2xl font-extrabold">Matias Rodriguez</h2>
         </div>
       </div>
       <article>
         <p className="py-3" style={{ fontSize: ".92rem" }}>
           Liderazgo | Proactivo | Empático | Trabajo en equipo | Rápido
           aprendizaje | Adaptabilidad | Gestión del tiempo | Resolución de
-          problemas | Autodidacta | Responsable | Comunicador efectivo |
-          Flexibilidad | Atención al detalle | Escucha activa
+          problemas | Autodidacta | Responsable |
+          Flexibilidad | Escucha activa |
         </p>
         <div className="flex justify-center">
           <hr className="w-3/4 opacity-20" />
@@ -55,7 +50,7 @@ const LateralProfile = () => {
               onPointerLeave={() => handleChangePointerColor(false)}
             >
               <a
-                href="mailto:uriel.aguero1812@gmail.com"
+                href="mailto:matirodriguez120401@gmail.com"
                 className="flex items-center gap-x-2 cursor-none hover:text-green-600"
               >
                 <span
@@ -63,7 +58,7 @@ const LateralProfile = () => {
                   role="img"
                   aria-hidden="true"
                 ></span>
-                uriel.aguero1812@gmail.com
+                matirodriguez120401@gmail.com
               </a>
               {
                 successCopy ? (
@@ -91,7 +86,7 @@ const LateralProfile = () => {
               onPointerLeave={() => handleChangePointerColor(false)}
             >
               <a
-                href="https://www.linkedin.com/in/uri-aguero"
+                href="https://www.linkedin.com/in/matirodriguez23/"
                 target="_blank"
                 className="flex items-center gap-x-2 cursor-none"
               >
@@ -100,7 +95,7 @@ const LateralProfile = () => {
                   role="img"
                   aria-hidden="true"
                 ></span>
-                in/uri-aguero
+                in/matirodriguez23
               </a>
             </li>
             <li
@@ -109,7 +104,7 @@ const LateralProfile = () => {
               onPointerLeave={() => handleChangePointerColor(false)}
             >
               <a
-                href="https://github.com/UriAg"
+                href="https://github.com/MatiasRodriguez21"
                 target="_blank"
                 className="flex items-center gap-x-2 cursor-none"
               >
@@ -118,7 +113,7 @@ const LateralProfile = () => {
                   role="img"
                   aria-hidden="true"
                 ></span>
-                github/UriAg
+                github/MatiasRodriguez21
               </a>
             </li>
             <li
@@ -127,7 +122,7 @@ const LateralProfile = () => {
               onPointerLeave={() => handleChangePointerColor(false)}
             >
               <a
-                href="/Uriel_Aguero_fullstack_cv.pdf"
+                href="/Rodriguez_Matias.pdf"
                 download
                 className="flex items-center gap-x-2 cursor-none"
               >
